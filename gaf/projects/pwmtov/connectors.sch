@@ -1,0 +1,16 @@
+v 20110115 2
+C 39900 40100 0 0 0 title-bordered-B.sym
+C 41500 48900 1 0 0 connector2-1.sym
+{
+T 41700 49900 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 41500 49700 5 10 1 1 0 0 1
+refdes=CONN1
+T 41500 48900 5 10 1 0 0 0 1
+footprint=CONNECTOR 2 1
+}
+C 43100 48800 1 0 0 gnd-1.sym
+C 43000 49400 1 0 0 5V-plus-1.sym
+T 41900 50200 9 14 1 0 0 0 1
+5V Power
+B 40500 47600 4300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
