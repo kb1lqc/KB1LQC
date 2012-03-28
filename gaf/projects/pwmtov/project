@@ -1,2 +1,3 @@
+--elements-dir ~/KB1LQC/gaf/pcb-elements
 schematics pwmtov.sch
 output-name pwmtov-board

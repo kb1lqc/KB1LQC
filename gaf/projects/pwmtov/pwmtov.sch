@@ -5,22 +5,22 @@ C 43100 48400 1 0 0 resistor-1.sym
 T 43400 48800 5 10 0 0 0 0 1
 device=RESISTOR
 T 43300 48700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R101
 T 43300 48200 5 10 1 1 0 0 1
 value=100K
 T 43100 48400 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 46700 46700 1 0 0 capacitor-2.sym
 {
 T 46900 47400 5 10 0 0 0 0 1
 device=POLARIZED_CAPACITOR
 T 46900 47200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C101
 T 46900 47600 5 10 0 0 0 0 1
 symversion=0.1
 T 46700 46700 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 T 46900 46500 5 10 1 1 0 0 1
 value=0.01uF
 }
@@ -47,55 +47,55 @@ C 43000 45600 1 0 0 resistor-1.sym
 T 43300 46000 5 10 0 0 0 0 1
 device=RESISTOR
 T 43200 45900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R102
 T 43200 45400 5 10 1 1 0 0 1
 value=49.9K
 T 43000 45600 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 45100 44300 1 0 0 resistor-1.sym
 {
 T 45400 44700 5 10 0 0 0 0 1
 device=RESISTOR
 T 45300 44600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R103
 T 45300 44100 5 10 1 1 0 0 1
 value=19.1K
 T 45100 44300 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 46400 44300 1 0 0 resistor-1.sym
 {
 T 46700 44700 5 10 0 0 0 0 1
 device=RESISTOR
 T 46600 44600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R104
 T 46600 44100 5 10 1 1 0 0 1
 value=78.7K
 T 46400 44300 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 45700 49000 1 0 0 resistor-1.sym
 {
 T 46000 49400 5 10 0 0 0 0 1
 device=RESISTOR
 T 45900 49300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R105
 T 45900 48800 5 10 1 1 0 0 1
 value=10K
 T 45700 49000 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 50200 45100 1 270 0 capacitor-2.sym
 {
 T 50900 44900 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 50700 44900 5 10 1 1 270 0 1
-refdes=C?
+refdes=C102
 T 51100 44900 5 10 0 0 270 0 1
 symversion=0.1
 T 50200 45100 5 10 0 0 270 0 1
-footprint=SMD CHIP 805
+footprint=0805
 T 49500 44600 5 10 1 1 0 0 1
 value=0.01uF
 }
@@ -124,22 +124,22 @@ C 50600 43400 1 0 0 resistor-1.sym
 T 50900 43800 5 10 0 0 0 0 1
 device=RESISTOR
 T 50800 43700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R106
 T 50800 43200 5 10 1 1 0 0 1
 value=5K
 T 50600 43400 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 49400 43400 1 0 0 resistor-1.sym
 {
 T 49700 43800 5 10 0 0 0 0 1
 device=RESISTOR
 T 49600 43700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R107
 T 49600 43200 5 10 1 1 0 0 1
 value=5K
 T 49400 43400 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 C 51500 43000 1 0 0 gnd-1.sym
 N 49100 43500 49400 43500 4
@@ -156,7 +156,7 @@ N 42700 45700 43000 45700 4
 C 44000 45400 1 0 0 LTC202-1.sym
 {
 T 44800 46200 5 10 1 1 0 0 1
-refdes=U?
+refdes=U101
 T 46500 46000 5 10 0 0 0 0 1
 footprint=SO16
 T 46500 46400 5 10 0 0 0 0 1
@@ -165,7 +165,7 @@ device=LTC202
 C 47500 48800 1 0 0 LTC202-1.sym
 {
 T 48300 49600 5 10 1 1 0 0 1
-refdes=U?
+refdes=U101
 T 50000 49400 5 10 0 0 0 0 1
 footprint=SO16
 T 50000 49800 5 10 0 0 0 0 1
@@ -176,7 +176,7 @@ slot=2
 C 49100 45200 1 0 0 LTC202-1.sym
 {
 T 49900 46000 5 10 1 1 0 0 1
-refdes=U?
+refdes=U101
 T 51600 45800 5 10 0 0 0 0 1
 footprint=SO16
 T 51600 46200 5 10 0 0 0 0 1
@@ -197,11 +197,11 @@ C 52300 43600 1 0 0 resistor-1.sym
 T 52600 44000 5 10 0 0 0 0 1
 device=RESISTOR
 T 52500 43900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R108
 T 52600 43400 5 10 1 1 0 0 1
 value=0
 T 52300 43600 5 10 0 0 0 0 1
-footprint=SMD CHIP 805
+footprint=0805
 }
 N 52000 43700 52300 43700 4
 N 53200 43700 53500 43700 4
@@ -223,18 +223,22 @@ C 46700 45000 1 0 0 LT1880-1.sym
 T 48900 46200 5 10 0 0 0 0 1
 device=LT1880
 T 47600 45800 5 10 1 1 0 0 1
-refdes=U?
+refdes=U102
 T 48900 45400 5 10 0 0 0 0 1
 device=LT1880
+T 46700 45000 5 10 1 0 0 0 1
+footprint=TSOT23-95P-280L1-5N__LTC_S5_Package
 }
 C 52000 44800 1 0 0 LT1880-1.sym
 {
 T 54200 46000 5 10 0 0 0 0 1
 device=LT1880
 T 52900 45600 5 10 1 1 0 0 1
-refdes=U?
+refdes=U103
 T 54200 45200 5 10 0 0 0 0 1
 device=LT1880
+T 52000 44800 5 10 1 0 0 0 1
+footprint=TSOT23-95P-280L1-5N__LTC_S5_Package
 }
 C 41600 41800 1 0 0 gnd-1.sym
 C 41100 42300 1 0 0 gnd-1.sym
@@ -250,7 +254,7 @@ C 52800 44800 1 180 0 5V-plus-1.sym
 C 46700 47500 1 0 0 LTC202-1.sym
 {
 T 47500 48300 5 10 1 1 0 0 1
-refdes=U?
+refdes=U101
 T 49200 48100 5 10 0 0 0 0 1
 footprint=SO16
 T 49200 48500 5 10 0 0 0 0 1
@@ -260,8 +264,8 @@ slot=3
 }
 C 41200 42100 1 0 0 LTC202-1-pwr.sym
 {
-T 42200 42900 5 10 1 1 0 0 1
-refdes=U
+T 42100 42900 5 10 1 1 0 0 1
+refdes=U101
 T 43200 43300 5 10 0 0 0 0 1
 device=LTC202
 }
