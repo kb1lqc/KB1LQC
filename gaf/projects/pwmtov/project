@@ -1,2 +1,2 @@
-schematics main.sch
+schematics pwmtov.sch
 output-name pwmtov-board
