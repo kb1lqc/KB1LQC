@@ -1,0 +1,44 @@
+v 20110115 2
+P 0 500 300 500 1 0 0
+{
+T 3300 2100 5 10 0 0 0 0 1
+pintype=pwr
+T 0 600 3 10 1 1 0 0 1
+pinlabel=V-
+T 4400 2300 5 10 0 0 0 6 1
+pinnumber=4
+T 1200 1100 5 10 0 0 0 0 1
+pinseq=4
+}
+P 1000 500 700 500 1 0 0
+{
+T 3100 2200 5 10 0 0 180 0 1
+pintype=pwr
+T 1000 600 3 10 1 1 0 6 1
+pinlabel=V+
+T 2100 2300 5 10 0 0 0 0 1
+pinnumber=13
+T 1200 500 5 10 0 0 0 0 1
+pinseq=13
+}
+B 300 300 400 400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 500 0 500 300 1 0 0
+{
+T 1800 2200 5 10 0 0 180 0 1
+pintype=pwr
+T 600 200 3 10 1 1 180 6 1
+pinlabel=GND
+T 1900 2400 5 10 0 0 180 0 1
+pinnumber=5
+T 1300 800 5 10 0 0 0 0 1
+pinseq=5
+}
+T 1000 800 8 10 1 1 0 0 1
+refdes=U?
+T 2000 600 8 10 0 0 0 0 1
+description=4 device analog switch power. Make same refdes as associated LTC202 device.
+T 2000 1200 8 10 0 0 0 0 1
+device=LTC202-PWR
+T 300 800 9 10 1 0 0 0 2
+LTC202
+PWR
