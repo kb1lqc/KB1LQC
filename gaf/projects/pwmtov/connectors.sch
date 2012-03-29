@@ -7,7 +7,7 @@ device=CONNECTOR_2
 T 41700 46900 5 10 1 1 0 0 1
 refdes=J1
 T 41700 46100 5 10 0 0 0 0 1
-footprint=0.1_INCH_2PIN
+footprint=SIL2
 }
 C 43300 46000 1 0 0 gnd-1.sym
 T 42100 47400 9 14 1 0 0 0 1
@@ -20,7 +20,7 @@ device=CONNECTOR_2
 T 47400 46900 5 10 1 1 0 0 1
 refdes=J2
 T 47400 46100 5 10 0 0 0 0 1
-footprint=0.1_INCH_2PIN
+footprint=SIL2
 }
 C 49000 46000 1 0 0 gnd-1.sym
 B 46400 44800 4300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -33,7 +33,7 @@ device=CONNECTOR_2
 T 52400 46900 5 10 1 1 0 0 1
 refdes=J3
 T 52400 46100 5 10 0 0 0 0 1
-footprint=0.1_INCH_2PIN
+footprint=SIL2
 }
 C 54000 46000 1 0 0 gnd-1.sym
 B 51800 44800 4300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
