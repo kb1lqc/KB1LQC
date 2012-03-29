@@ -1,2 +1,3 @@
 (component-library "/home/bryce/KB1LQC/gaf/gschem-sym")
 (component-library "/home/bryce/KB1LQC/gaf/gschem-sym/LTC")
+(component-library "/home/bryce/KB1LQC/gaf/gschem-sym/Generic")

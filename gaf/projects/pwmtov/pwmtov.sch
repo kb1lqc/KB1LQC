@@ -36,7 +36,7 @@ value=Vpulse
 C 54100 45200 1 0 0 output-2.sym
 {
 T 55000 45400 5 10 0 0 0 0 1
-net=Vpulsedc:1
+net=vpulsedc:1
 T 54300 45900 5 10 0 0 0 0 1
 device=none
 T 55000 45300 5 10 1 1 0 1 1
@@ -226,7 +226,7 @@ T 47600 45800 5 10 1 1 0 0 1
 refdes=U102
 T 48900 45400 5 10 0 0 0 0 1
 device=LT1880
-T 46700 45000 5 10 1 0 0 0 1
+T 46700 45000 5 10 0 0 0 0 1
 footprint=TSOT23-95P-280L1-5N__LTC_S5_Package
 }
 C 52000 44800 1 0 0 LT1880-1.sym
@@ -237,13 +237,13 @@ T 52900 45600 5 10 1 1 0 0 1
 refdes=U103
 T 54200 45200 5 10 0 0 0 0 1
 device=LT1880
-T 52000 44800 5 10 1 0 0 0 1
+T 52000 44800 5 10 0 0 0 0 1
 footprint=TSOT23-95P-280L1-5N__LTC_S5_Package
 }
-C 41600 41800 1 0 0 gnd-1.sym
-C 41100 42300 1 0 0 gnd-1.sym
-C 42500 42600 1 0 0 5V-plus-1.sym
-N 42200 42600 42700 42600 4
+C 41600 42400 1 0 0 gnd-1.sym
+C 41100 42900 1 0 0 gnd-1.sym
+C 44400 43200 1 0 0 5V-plus-1.sym
+N 42200 43200 44600 43200 4
 C 42500 45700 1 0 0 5V-plus-1.sym
 C 42600 48500 1 0 0 5V-plus-1.sym
 C 45300 49100 1 0 0 5V-plus-1.sym
@@ -262,15 +262,45 @@ device=LTC202
 T 51600 48000 5 10 0 0 0 0 1
 slot=3
 }
-C 41200 42100 1 0 0 LTC202-1-pwr.sym
+C 41200 42700 1 0 0 LTC202-1-pwr.sym
 {
-T 42100 42900 5 10 1 1 0 0 1
+T 42100 43500 5 10 1 1 0 0 1
 refdes=U101
-T 43200 43300 5 10 0 0 0 0 1
+T 43200 43900 5 10 0 0 0 0 1
 device=LTC202
 }
-T 40500 41400 9 10 1 0 0 0 1
+T 40600 41400 9 10 1 0 0 0 1
 Make same refdes as one of the LTC202 devices
 T 52400 42900 9 10 1 0 0 0 2
 Zero ohm resistor to permit a
 unity gain resistor to be used if needed.
+T 51900 40900 9 12 1 0 0 0 1
+3
+C 43300 42300 1 90 0 capacitor-1.sym
+{
+T 42600 42500 5 10 0 0 90 0 1
+device=CAPACITOR
+T 42800 42800 5 10 1 1 180 0 1
+refdes=C103
+T 42400 42500 5 10 0 0 90 0 1
+symversion=0.1
+T 42400 42400 5 10 1 1 0 0 1
+value=0.01uF
+T 43300 42300 5 10 0 0 0 0 1
+footprint=0603
+}
+C 44200 43200 1 270 0 capacitor-2.sym
+{
+T 44900 43000 5 10 0 0 270 0 1
+device=POLARIZED_CAPACITOR
+T 43700 42600 5 10 1 1 0 0 1
+refdes=C104
+T 45100 43000 5 10 0 0 270 0 1
+symversion=0.1
+T 43700 42400 5 10 1 1 0 0 1
+value=1uF
+T 44200 43200 5 10 0 0 0 0 1
+footprint=0805
+}
+C 43000 42000 1 0 0 gnd-1.sym
+C 44300 42000 1 0 0 gnd-1.sym
