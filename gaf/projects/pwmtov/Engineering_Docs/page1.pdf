@@ -1,6 +1,6 @@
 %!PS-Adobe-3.0
 %%Creator: gEDA gschem 1.6.1-20100214-22-ga30f00b
-%%CreationDate: Thu Mar 29 01:37:42 2012
+%%CreationDate: Thu Mar 29 01:47:08 2012
 %%Title: /home/bryce/KB1LQC/gaf/projects/pwmtov/pwmtov.sch
 %%Author: bryce
 %%BoundingBox: 0 0 612 792
@@ -650,7 +650,7 @@ gsave
 54800 45200 54300 45200 10 line
 grestore
 gsave
-false false true false 260.000000 [(Vpulsedc) ] 0 55000 45300 180.555557 text
+false false true false 260.000000 [(VpulseDC) ] 0 55000 45300 180.555557 text
 grestore
 gsave
 43600 45800 43500 45600 10 line

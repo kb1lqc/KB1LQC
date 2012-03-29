@@ -40,7 +40,7 @@ net=vpulsedc:1
 T 54300 45900 5 10 0 0 0 0 1
 device=none
 T 55000 45300 5 10 1 1 0 1 1
-value=Vpulsedc
+value=VpulseDC
 }
 C 43000 45600 1 0 0 resistor-1.sym
 {
